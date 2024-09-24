@@ -1,0 +1,9 @@
+chcp 65001
+help dir > "H:\OSST\dirfile.txt"
+help copy > "H:\OSST\copyfile.txt"
+help xcopy > "H:\OSST\xcopyfile.txt"
+dir "H:\OSST" /O:D /A:H
+xcopy "C:\Windows\*.png" "C:\WinGrafika"
+xcopy "C:\Windows\*.jpeg" "C:\WinGrafika"
+xcopy "C:\Windows\*.exe" "C:\WinEX"
+doskey /history > "H:\OSST\history.txt"
